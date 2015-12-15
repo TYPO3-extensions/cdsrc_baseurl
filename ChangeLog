@@ -1,0 +1,41 @@
+2015-07-02 Matthias Toscanelli  <m.toscanelli@code-source.ch>
+
+    * Stable 3.2.0
+    * Bug fix: When a page was cached and has INT-scripts in it, the process to recreate the config from cache may cause problems in the rendering. (Thanks to Nils Blattner)
+    * Bug fix: All domains are taken regardless of configuration
+    * Added possibility to desactivate Hook from TypoScript configuration "config.tx_cdsrcbaseurl_disabled" (stdWrap)
+
+2015-03-04 Matthias Toscanelli  <m.toscanelli@code-source.ch>
+
+    * Stable 3.1.0
+    * TYPO3 7.x compatibility fix
+
+2014-03-25 Matthias Toscanelli  <m.toscanelli@code-source.ch>
+
+    * Stable 3.0.1
+    * Code cleanup
+
+2014-03-25 Matthias Toscanelli  <m.toscanelli@code-source.ch>
+
+    * Stable 3.0.0
+    * TYPO3 6.2 compatibility fix
+
+2013-04-18 Matthias Toscanelli  <m.toscanelli@code-source.ch>
+
+    * Stable 1.2.0
+    * Code cleanup
+    * Comments added
+
+2010-09-02 Matthias Toscanelli  <m.toscanelli@code-source.ch>
+
+    * Stable 1.0.2
+    * Bug fix: Added final "/" to be more compatible with extensions
+
+2010-04-03 Matthias Toscanelli  <m.toscanelli@code-source.ch>
+
+    * Stable 1.0.1
+    * Added multidomain cache management
+
+2010-03-10 Matthias Toscanelli  <m.toscanelli@code-source.ch>
+
+    * Initial release
