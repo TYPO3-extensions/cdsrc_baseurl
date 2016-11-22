@@ -1,3 +1,8 @@
+2016-11-22 Matthias Toscanelli  <m.toscanelli@code-source.ch>
+
+    * Stable 4.0.0
+    * Extension structure fully compatible with version 7.x and 8.x standards
+
 2015-07-02 Matthias Toscanelli  <m.toscanelli@code-source.ch>
 
     * Stable 3.2.0

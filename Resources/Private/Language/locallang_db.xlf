@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-11-22T14:05:12Z" product-name="cdsrc_baseurl">
+		<header/>
+		<body>
+			<trans-unit id="sys_domain.tx_cdsrcbaseurl_to_baseurl">
+				<source>Add base URL for this domain</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

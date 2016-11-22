@@ -10,30 +10,24 @@
  * writing. "version" and "dependencies" must not be touched!
  ***************************************************************/
 
-$EM_CONF[$_EXTKEY] = array (
-	'title' => 'Automatic base url',
-	'description' => 'Add automaticly base url based on current domain',
-	'category' => 'fe',
-	'version' => '3.2.0',
-	'state' => 'stable',
-	'uploadfolder' => true,
-	'createDirs' => '',
-	'clearcacheonload' => true,
-	'author' => 'Matthias Toscanelli',
-	'author_email' => 'm.toscanelli@code-source.ch',
-	'author_company' => 'Code-Source',
-	'constraints' => 
-	array (
-		'depends' => 
-		array (
-			'typo3' => '4.5.0-7.3.99',
-		),
-		'conflicts' => 
-		array (
-		),
-		'suggests' => 
-		array (
-		),
-	),
-);
+$EM_CONF[$_EXTKEY] = [
+    'title' => 'Automatic base url',
+    'description' => 'Add automaticly base url based on current domain',
+    'category' => 'fe',
+    'version' => '4.0.0',
+    'state' => 'stable',
+    'uploadfolder' => true,
+    'createDirs' => '',
+    'clearcacheonload' => true,
+    'author' => 'Matthias Toscanelli',
+    'author_email' => 'm.toscanelli@code-source.ch',
+    'author_company' => 'Code-Source',
+    'constraints' => [
+        'depends' => [
+            'typo3' => '7.6.0-8.4.99',
+        ],
+        'conflicts' => [],
+        'suggests' => [],
+    ],
+];
 
